@@ -1,0 +1,22 @@
+header-includes:
+- |
+  ```{=latex}
+  \usepackage{awesomebox}
+  ```
+pandoc-latex-environment:
+  noteblock: [note]
+  tipblock: [tip]
+  warningblock: [warning]
+  cautionblock: [caution]
+  importantblock: [important]
+...
+
+```{=html}
+    <!---
+    INLEIDING
+
+    Pandoc opdracht:
+    pandoc instroomanalyse-visual.md -o instroomanalyse-visual.pdf --from markdown --template eisvogel --listings
+    --->
+
+bibliography: 03_bibliography/lta-bibliography-instroom.bib
