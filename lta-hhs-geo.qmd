@@ -28,9 +28,13 @@ titlepage-background: "01_Backgrounds/LTA-baseball.pdf"
 toc: true
 toc-depth: 2
 toc-own-page: true
+
 colorlinks: true
 table-use-row-colors: false
+callout-appearance: simple
+
 footnotes-pretty: true
+
 editor: visual
 ---
 
