@@ -972,8 +972,13 @@ $if(titlepage-background)$
   \vskip 0.28em
   {\Large \textsf{$subtitle$}}
   $endif$
+  $if(subtitle)$
   \vskip 55em
+  $endif$
   \color[HTML]{$if(titlepage-footer-color)$$titlepage-footer-color$$endif$}
+  $if(documenttype)$
+  \noindent \textsf{$documenttype$}\break
+  $endif$
   \noindent {\textsf{$for(author)$$author$$sep$, $endfor$} | \textsf{$date$}}
   %\vfill
 }

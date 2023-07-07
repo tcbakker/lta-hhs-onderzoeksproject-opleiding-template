@@ -3,7 +3,8 @@ versie: 0.9.0
 
 subject: Verwerking van studiedata aan De HHs
 title: Verwerking van studiedata aan De HHs
-subtitle: Beschrijving en verantwoording, v. {{< meta versie >}}
+subtitle: Beschrijving en verantwoording
+documenttype: Handleiding, v. {{< meta versie >}}
 author: Lectoraat Learning Technology & Analytics, De HHs
 keywords: [De HHs, De Staat van De Haagse, Verwerking]
 lang: nl
@@ -12,7 +13,7 @@ date-format: "DD-MM-YYYY"
 
 format: 
   pdf: 
-    output-file: LTA-HHs-Analyseset-Manual-0.9.0.pdf
+    output-file: LTA-HHs-Analyseset-Manual_0.9.0.pdf
     output-ext:  "pdf"
 template: 00_Templates/eisvogel-lta.latex
 number-sections: true
@@ -26,7 +27,7 @@ titlepage-text-color: '223343'
 titlepage-title-color: '223343'
 titlepage-subtitle-color: '9EA700'
 titlepage-footer-color: 'FFFFFF'
-titlepage-background: "01_Backgrounds/LTA-baseball.pdf"
+titlepage-background: "01_Backgrounds/LTA-woodcarving-compressed.pdf"
 
 header-title-color: '9EA700'
 header-date-color: '777777'
@@ -59,6 +60,8 @@ In het lectoraat Learning Technology & Analytics onderzoeken we studiedata van D
 ## Doel van deze handleiding
 
 Deze handleiding van het lectoraat Learning Technology & Analytics beschrijft en verantwoordt de procedures en methode om deze studiedata aan te vragen en te verwerken. Bij subsidieaanvragen dienen deze documenten meestal meegeleverd te worden.
+
+Ook vind je een overzicht van de tools die we gebruiken, hoe die met elkaar samenhangen en hoe je ze gebruikt. De broncode van deze handleiding staat op [github](https://github.com/LTA-HHs/lta-hhs-analyseset-manual) en kan door leden van het lectoraat bewerkt worden.
 
 Heb je suggesties voor verbeteringen? Mail die dan naar Theo Bakker, [t.c.bakker\@hhs.nl](mailto:t.c.bakker@hhs.nl).
 
@@ -185,9 +188,8 @@ De commissie vergadert 1 keer per maand. De data vind je op de webpagina van de 
 >
 > -   Hoe worden de belangen van de deelnemers aan jouw onderzoek beschermd?  
 >
-> ```{=html}
 > <!-- -->
-> ```
+>
 > -   Worden deelnemers in jouw onderzoek voldoende en juist  geïnformeerd  over deelname?  
 
 *Template*: Gebruik voor een aanvraag aan de Ethische Adviescommissie de Checklist aanvraag Ethische Adviescommissie.
@@ -202,6 +204,82 @@ Het formulier vraagt naar 1) algemene gegevens over de aanvrager, 2) of de gegev
 
 Bij vraag 2 is er een optie voor Ja of Nee, ze zijn geanonimiseerd en geaggregeerd. Dit zijn antwoord opties die niet goed aansluiten bij de gepseudonimiseerde data op studentniveau die we in het lectoraat onderzoeken. Ik heb het IR&A team gevraagd dit aan te passen. Kies voor nu de 2e optie met een toelichting.
 
-Niet alle data zijn al beschikbaar: enkel inschrijvingen en data over uitval of diplomering van de cohorten 2012 tot en met 2022. Data over de faculteit ITD ontbreekt nog. Een resultatendataset is in voorbereiding en gepland om voor de zomer af te ronden. Data uit Brightspace of andere systemen is nog niet ontsloten.
+Niet alle data zijn al beschikbaar: enkel inschrijvingen en data over uitval of diplomering van de cohorten 2012 tot en met 2022. Een resultatendataset is in voorbereiding en gepland om voor de zomer af te ronden. Data uit Brightspace of andere systemen is nog niet ontsloten.
 
 *Template*: Gebruik het formele aanvraagformulier
+
+\newpage
+
+# Software
+
+Voor het bewerken van de data en de ontwikkeling van de analyses gebruiken we open source software: R, RStudio, Git en QGIS. Voor de data van een Researchdrive.
+
+-   De **onderzoeksdata** staat op Researchdrive. Voor deelonderzoeken maken we gebruik van subsets van de hoofddataset die door de lector worden gemaakt.
+-   Voor **databewerking en statistische** **analyses** is [R](https://www.r-project.org/) leidend met als editor [R Studio](https://posit.co/download/rstudio-desktop/) van Posit; bij uitzondering kan ook Python gebruikt worden. Iedere analyse wordt als project opgesteld.
+    -   Maak gebruik van de huisstijlgids die het lectoraat hanteert (opvragen bij de lector).
+    -   Gebruik de LTA-snippets om efficiënt te kunnen coderen (opvragen bij de lector).
+    -   Neem vooraf de tutorial over RStudio door: [RStudio Tutorial](https://www.datacamp.com/tutorial/r-studio-tutorial). Dit zal je in de uitvoering veel tijd besparen.
+    -   Zie voor de trainingen die je moet doen om R aan te leren **6.1 Data engineering en data analyses** van de Onboarding handleiding voor het lectoraat.
+-   **Broncode** leggen we vast en delen we via [Git](https://github.com/) (Github). Broncode is -- als het wordt ontwikkeld binnen je aanstelling voor het lectoraat -- eigendom van De HHs en daarbinnen het lectoraat.
+    -   Git is een manier om de code voor de analyses van een project te scheiden van de data en de output. Neem voor je begint de volgende tutorial door: [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)**.**
+    -   Het lectoraat heeft een Github-omgeving waarop alle repositories staan: <https://github.com/LTA-HHs>. Alle repositories beginnen met lta-hhs-.
+    -   Check na grote wijzigingen je wijzigingen in met een kort commentaar, zodat jijzelf of je collega's na verloop van tijd weten wat de wijziging was. Het kan zijn dat dit meerdere keren per dag gewenst is. Gebruik als vuistregel dat wat je zou moeten kunnen terugdraaien een logisch geheel is.
+-   De **opmaak** van formele documenten, zoals handleidingen, artikelen, rapporten, automatiseren we zoveel mogelijk buiten MS Office om.
+    -   We maken gebruik van R, [Quarto](https://quarto.org/)/[Markdown](https://www.markdownguide.org/) of [Latex](https://www.latex-project.org/). Al deze pakketten zijn geprogrammeerd op R of communiceren daarmee.
+    -   Een goede Latex editor is [Texstudio](https://www.texstudio.org/).
+    -   Als je toe bent aan je eerste rapport, leer dan eerst Quarto aan met de tutorial: [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html).
+-   **Geografische data** analyseren en visualiseren we met [QGis](https://qgis.org/en/site/). Het is mogelijk in R, maar de mogelijkheden daarin zijn beperkt.
+    -   QGis is een pakket met heel veel mogelijkheden. Overleg voordat je start met de lector wat je precies ermee gaat doen en wat nuttig is om aan te leren.
+    -   Voor het maken van geografische analyses is een extra handleiding in de maak.
+
+\newpage
+
+# Prepareren van de data
+
+Om de data te kunnen analyseren prepareren we deze eerst: 1) we vergelijken nieuwe data met eventuele eerdere leveringen, 2) lezen de nieuwe data in en passen veldnamen aan, 3) voegen velden toe en verwijderen overbodige velden en 4) maken een documentatiebestand.
+
+![Stappen voor het prepareren van data](02_Images/LTA-inlezen-studiedata.png){#prepareren-workflow}
+
+Voor de datapreparatie is een git project aangemaakt: [lta-hhs-analyseset](https://github.com/LTA-HHs/lta-hhs-analyseset).
+
+## Voorbereidingen
+
+Plaats het geleverde bestand in de folder 'AS_Inschrijvingen/01. Ruwe data' in een map die de datum van het bestand weergeeft: YYYYMMDD. Een levering van 5 juli 2023 wordt 'AS_Inschrijvingen/01. Ruwe data/20230705'. Voeg bij een tweede levering op dezelfde dag een volgnummer toe "-2".
+
+## Controleren
+
+*01. Vergelijken AS_LTA.R* - In deze stap en dit script vergelijken we de oude en nieuwe dataset. Het doel is verschillen in kaart te brengen en daarover te kunnen rapporteren. Als deze te groot zijn dienen die gemeld te worden aan het team IR&A van OKC.
+
+1.  Pas boven in de pagina **configuratie** van de naam en datum van levering van het oude en nieuwe bestand aan, zodat je de juiste bestanden vergelijkt.
+2.  Gebruik het `dataCompareR` package dat rapporteert op **inhoudelijke verschillen**, zoals namen van variabelen en hun types, inhoud van categoriale variabelen en rijen. Het corrigeert automatisch veldnamen die syntactisch onjuist zijn.
+3.  Test op percentages **missende waarden**. Deze dienen over het algemeen minder te worden; voor succesvariabelen, zoals BSA of Uitval, kunnen ze juist meer worden omdat die data nog niet beschikbaar is.
+4.  Vergelijk **aantallen studenten per faculteit, per opleiding per jaar**.
+5.  Sla de uitkomsten tussentijds op en koppel deze indien nodig terug aan het team IR&A van OKC.
+
+## Inlezen
+
+*02. Inlezen AS_LTA.R* - In deze stap en dit script lezen we --- als de data kwalitatief goed genoeg is --- de data in.
+
+1.  **Lees de ruwe data in**. Pas in de configuratie de nieuwe datum van levering aan en indien nodig de nieuwe bestandsnaam.
+2.  **Pas veldnamen aan** waar nodig op basis van een documentatiebestand van het lectoraat.
+3.  **Sla het bestand op** in .fst en .rds formaat in de folder '02. Ingelezen data'.
+
+## Manipuleren
+
+*03. Manipuleren AS_LTA.R* - In deze stap en dit script bewerken we de data.
+
+1.  **Lees de ingelezen data in**.
+2.  **Verwijder overbodige velden**.
+3.  **Maak nieuwe velden aan** waar nodig. Deze stap zullen we de komende maanden uitbreiden met de datasets / variabelen die we binnen het lectoraat zullen ontwikkelen.
+4.  **Sla het bestand op** in .fst en .rds formaat in de folder '03. Geprepareerde data'.
+
+## Documenteren
+
+*04. Documenteren AS_LTA.R* - In deze stap en dit script documenteren we de data uitgebreid op basis van een achterliggend documentatiebestand en het `dataMaid` package.
+
+1.  **Lees de gemanipuleerde data in**.
+2.  **Lees het documentatiebestand in.** Dit is het documentatiebestand van het lectoraat met eigen veldnamen en labels.
+3.  **Maak de uitgebreide documentatie**. Dit wordt uitgevoerd door het `dataMaid` package. De uikomsten worden automatisch opgeslagen in de folder 'Documentatie/Documentatie_LTA_uitgebreid'; het rapport opent zich in je browser. Zie [Figuur 2](#dataMaid).
+4.  **Controleer de uitkomsten.**
+
+![Voorbeeld output van het kwaliteitsrapport met dataMaid](02_Images/Voorbeeld_kwaliteitsrapport_LTA.png){#dataMaid}
