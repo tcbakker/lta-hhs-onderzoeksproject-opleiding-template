@@ -63,7 +63,9 @@ Deze handleiding van het lectoraat Learning Technology & Analytics beschrijft en
 
 Ook vind je een overzicht van de tools die we gebruiken, hoe die met elkaar samenhangen en hoe je ze gebruikt. De broncode van deze handleiding staat op [github](https://github.com/LTA-HHs/lta-hhs-analyseset-manual) en kan door leden van het lectoraat bewerkt worden.
 
-Heb je suggesties voor verbeteringen? Mail die dan naar Theo Bakker, [t.c.bakker\@hhs.nl](mailto:t.c.bakker@hhs.nl).
+## Suggesties
+
+Heb je suggesties voor verbeteringen? Mail die dan naar de lector, Theo Bakker, [t.c.bakker\@hhs.nl](mailto:t.c.bakker@hhs.nl).
 
 \newpage
 
@@ -87,7 +89,7 @@ Stem voordat je een of meerdere van deze documenten formeel instuurt, deze eerst
 
 De projectbeschrijving bevat:
 
-1.  Een **toelichting op het belang van het onderzoek:** voor studenten en docenten of andere stakeholders in onze hogeschool, de doelstellingen van De HHs, de onderzoekslijnen van het lectoraat, de onderzoeksthema's van het kenniscentrum Global & Inclusive Learning, en de onderzoeksthema's van De HHs.
+1.  Een **toelichting op het belang van het onderzoek:** voor studenten en docenten of andere stakeholders in onze hogeschool, de doelstellingen van De HHs, de onderzoekslijnen van het lectoraat, de onderzoeksthema's van het kenniscentrum Global & Inclusive Learning en de onderzoeksthema's van De HHs.
 2.  Een **theoretische en ethische onderbouwing**. De theoretische onderbouwing bevat een link met het vakgebied en eerdere publicaties; de ethische onderbouwing maakt gebruik van de [Data Science Ethics Checklist](https://deon.drivendata.org/) van Deon die ingevuld als bijlage wordt toegevoegd.
 3.  Een uitwerking van de **onderzoeksvragen en operationalisering** daarvan.
 4.  Een uitwerking van de **databronnen.**
@@ -99,7 +101,7 @@ De projectbeschrijving bevat:
     1.  **Referenties**
     2.  Een **versiegeschiedenis** met wijzigingen en verspreiding.
     3.  De locatie van de **repository** voor de projectbeschrijving.
-    4.  De ingevulde Data Science Ethics Checklist
+    4.  De ingevulde **Data Science Ethics Checklist**
 
 Laat de projectbeschrijving lezen door een aantal collega's zodat deze aan kwaliteit wint. Geef bij een verzoek voor een review expliciet aan in het verzoek dat het een formeel verzoek is, wanneer je een reactie hoopt te ontvangen en hoe je de feedback zult gaan gebruiken.
 
@@ -107,7 +109,7 @@ Laat de projectbeschrijving lezen door een aantal collega's zodat deze aan kwali
 
 ## Datamanagementplan
 
-De hogeschoolbibliotheek van de dienst OKC heeft datamangement in de portefeuille. Voor het datamangementplan gebruiken we een standaard formulier van NWO. Het datamanagementplan beschrijft:
+De hogeschoolbibliotheek van de dienst OKC heeft datamanagement in de portefeuille. Voor het datamangementplan gebruiken we een standaard formulier van NWO. Het datamanagementplan beschrijft:
 
 1.  **Algemene gegevens**: informatie over het project, de aanvrager, de datastewart
 2.  **De onderzoeksdata**: welke data worden verzameld of geproduceerd, en welke bestaande data worden hergebruikt?
@@ -140,7 +142,7 @@ De keuze voor de grondslag voor de verwerking van studiedata voor het onderzoek 
 
 ### Grondslag: Gerechtvaardigd belang
 
-Voor de gronslag gerechtvaardigd belang zijn [3 voorwaarden](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd#wanneer-mag-u-zich-baseren-op-de-grondslag-gerechtvaardigd-belang-6330):
+Voor de grondslag gerechtvaardigd belang zijn [3 voorwaarden](https://autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/grondslagen-avg-uitgelegd#wanneer-mag-u-zich-baseren-op-de-grondslag-gerechtvaardigd-belang-6330):
 
 **Voorwaarde 1: gerechtvaardigd belang**
 
@@ -176,33 +178,30 @@ Toestemming wordt ook wel *informed consent* genoemd. Hierbij geeft de student a
 
 ## Toets bij de Ethische Adviescommissie
 
-Een ethische toets is altijd van belang voor een project. Dit neem je op in je projectbeschrijving; zie voor meer info . Als je een onderzoek doet met proefpersonen of er een risico bestaat op negatieve gevolgen van je onderzoek, dan is het van belang dit voor te leggen aan de [Ethische Adviescommissie](https://dehaagsehogeschool.sharepoint.com/sites/Organisatie/SitePages/Ethische-Commissie.aspx) van De HHs.
+Een ethische toets is altijd van belang voor een project. Dit neem je op in je projectbeschrijving. Als je een onderzoek doet met proefpersonen of er een risico bestaat op negatieve gevolgen van je onderzoek, dan is het van belang dit voor te leggen aan de [Ethische Adviescommissie](https://dehaagsehogeschool.sharepoint.com/sites/Organisatie/SitePages/Ethische-Commissie.aspx) van De HHs.
 
 Voor de toets is er een checklist opgesteld die je ingevuld opstuurt samen met de projectbeschrijving. De checklist van de commissie bevat 1) vragen over de aanvrager, 2) de ethische adviesvragen, 3) het onderzoeksproject in het algemeen, 4) de uitvoering en methoden van het onderzoek, 5) de deelnemers/respondenten en 6) eventueel aanvullende vragen of opmerkingen.
 
-De commissie vergadert 1 keer per maand. De data vind je op de webpagina van de commissie. Je stuurt je ingevulde checklist naar [research\@hhs.nl](mailto:research@hhs.nl) ter attentie van de ethische commissie.
+De commissie vergadert 1 keer per maand. De data vind je op de webpagina van de commissie op het HHs intranet. Je stuurt je ingevulde checklist naar [research\@hhs.nl](mailto:research@hhs.nl) ter attentie van de ethische commissie.
 
 > De Ethische Adviescommissie adviseert jou als onderzoeker over ethische aspecten ten aanzien van jouw onderzoeksproject. Het advies vindt bij voorkeur vóór of bij de start van jouw onderzoeksactiviteiten plaats, maar advies kan indien nodig ook gedurende het onderzoekstraject worden ingewonnen (bijvoorbeeld wanneer een journal je vraagt om een ethisch adviesrapport). 
 >
 > De volgende vragen staan centraal bij de commissie: 
 >
 > -   Hoe worden de belangen van de deelnemers aan jouw onderzoek beschermd?  
->
-> <!-- -->
->
 > -   Worden deelnemers in jouw onderzoek voldoende en juist  geïnformeerd  over deelname?  
 
 *Template*: Gebruik voor een aanvraag aan de Ethische Adviescommissie de Checklist aanvraag Ethische Adviescommissie.
 
 ## Data-aanvraag bij IR&A, OKC
 
-Vanuit OKC is een **analyseset** gebouwd op basis van een aantal bronnen: Osiris, Studielink, het 1CHO bestand en een reistijden dataset. Deze dataset bevat data over alle inschrijvingen van studenten van De HHs vanaf cohort 2012. De methode voor het inlezen, verwerken en combineren van data is ontwikkeld door de Vrije Universiteit (VU) en overgenomen door De HHs. Zie voor een beschrijving van de variabelen *bijlage x*.
+Vanuit OKC is een **analyseset** gebouwd op basis van een aantal bronnen: Osiris, Studielink, het 1CHO bestand en een reistijden dataset. Deze dataset bevat data over alle inschrijvingen van studenten van De HHs vanaf cohort 2012. De methode voor het inlezen, verwerken en combineren van data is ontwikkeld door de Vrije Universiteit (VU) en overgenomen door De HHs. Zie voor een beschrijving van de variabelen het kwaliteitsrapport (uitgelegd in de stap [Documenteren]).
 
-De data voor je onderzoek vraag je parallel aan bij het team IR & Analytics van OKC. Zodra er een akkoord is vanuit de privacy officer kan de data aan je geleverd worden. Een aanvraag doe je via Topdesk: [BIV: Rapportages over studenten en onderwijs](https://hhs.topdesk.net/tas/public/ssp/content/detail/service?unid=d6e2cfff12264192826b5d50aa4b75c3) \> tegel 'Nieuw overzicht aanvragen'.
+De data voor je onderzoek vraag je parallel aan bij het team IR & Analytics van OKC. Stem dit vooraf met de lector. Zodra er een akkoord is vanuit de privacy officer kan de data aan je geleverd worden. Een aanvraag doe je via Topdesk: [BIV: Rapportages over studenten en onderwijs](https://hhs.topdesk.net/tas/public/ssp/content/detail/service?unid=d6e2cfff12264192826b5d50aa4b75c3) \> tegel 'Nieuw overzicht aanvragen'.
 
 Het formulier vraagt naar 1) algemene gegevens over de aanvrager, 2) of de gegevens die je aanvraagt persoonlijke gegevens bevat, 3) algemene informatie over je aanvraag: omschrijving, doel, welke gegevens je nodig hebt, periode, selectie, overige randvoorwaarden/wensen, wie er toegang krijgt tot de data, wanneer je de dataset nodig hebt.
 
-Bij vraag 2 is er een optie voor Ja of Nee, ze zijn geanonimiseerd en geaggregeerd. Dit zijn antwoord opties die niet goed aansluiten bij de gepseudonimiseerde data op studentniveau die we in het lectoraat onderzoeken. Ik heb het IR&A team gevraagd dit aan te passen. Kies voor nu de 2e optie met een toelichting.
+Bij vraag 2 is er een optie voor 'Ja' of 'Nee, ze zijn geanonimiseerd en geaggregeerd'. Dit zijn antwoordopties die niet goed aansluiten bij de gepseudonimiseerde data op studentniveau die we in het lectoraat onderzoeken. Ik heb het IR&A team gevraagd dit aan te passen. Kies voor nu de 2e optie met een toelichting.
 
 Niet alle data zijn al beschikbaar: enkel inschrijvingen en data over uitval of diplomering van de cohorten 2012 tot en met 2022. Een resultatendataset is in voorbereiding en gepland om voor de zomer af te ronden. Data uit Brightspace of andere systemen is nog niet ontsloten.
 
@@ -214,23 +213,42 @@ Niet alle data zijn al beschikbaar: enkel inschrijvingen en data over uitval of 
 
 Voor het bewerken van de data en de ontwikkeling van de analyses gebruiken we open source software: R, RStudio, Git en QGIS. Voor de data van een Researchdrive.
 
+## Data
+
 -   De **onderzoeksdata** staat op Researchdrive. Voor deelonderzoeken maken we gebruik van subsets van de hoofddataset die door de lector worden gemaakt.
--   Voor **databewerking en statistische** **analyses** is [R](https://www.r-project.org/) leidend met als editor [R Studio](https://posit.co/download/rstudio-desktop/) van Posit; bij uitzondering kan ook Python gebruikt worden. Iedere analyse wordt als project opgesteld.
-    -   Maak gebruik van de huisstijlgids die het lectoraat hanteert (opvragen bij de lector).
-    -   Gebruik de LTA-snippets om efficiënt te kunnen coderen (opvragen bij de lector).
+
+## Broncode
+
+-   **Broncode** leggen we vast en delen we via [Git](https://github.com/) (Github).
+-   Het **copyright** van alle broncode, analyses, rapportages en publicaties die je ontwikkelt binnen je aanstelling voor het lectoraat ligt bij De HHs en daarbinnen bij het kenniscentrum Global & Inclusive Learning en daarbinnen het lectoraat.
+    -   Git is een manier om de code voor de analyses van een project te scheiden van de data en de output. Neem voor je begint de volgende tutorial door: [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)**.**
+    -   Het lectoraat heeft een Github-omgeving waarop alle repositories staan: <https://github.com/LTA-HHs>. Alle repositories beginnen met 'lta-hhs-'.
+    -   Check na grote wijzigingen je wijzigingen in met een kort commentaar, zodat jijzelf of je collega's na verloop van tijd weten wat de wijziging was. Het kan zijn dat dit meerdere keren per dag gewenst is. Gebruik als vuistregel dat wat je zou moeten kunnen terugdraaien een logisch geheel is.
+-   We gebruiken de `ssh` standaard (Secure Shell) voor **repositories**.
+    -   De repository voor de inschrijvingen analyseset is 'git\@github.com:LTA-HHs/lta-hhs-analyseset.git'.
+    -   De repository voor deze handleiding is 'git\@github.com:LTA-HHs/lta-hhs-analyseset-manual.git'.
+    -   Maak in RStudio een eigen ssh-key aan via `Tools > Global Options > Git/SVN > Create SSH key`. Sla deze op op je harde schijf. Maak per computer die je gebruikt een unieke key. Zie [figuur 1](#ssh-key) voor de instellingen.
+    -   Deel de key met de lector, die de sleutel kan toevoegen aan de repository, zodat je via Git de code kan ophalen, bewerken, committen en uploaden. Zie de tutorials voor een verdere uitleg.
+
+![Instellingen voor Git met SSH](02_Images/LTA-instellen-git-ssh-key-cropped.png){#ssh-key}
+
+## Bewerking & analyse
+
+-   **Studiedata** bewerken en analyseren we met [R](#0) met als editor [R Studio](#0) van Posit; bij uitzondering kan ook Python gebruikt worden. Iedere analyse wordt als project opgesteld.
+    -   Maak gebruik van de huisstijlgids voor code die het lectoraat hanteert (op te vragen bij de lector).
+    -   Gebruik de LTA-snippets om efficiënt te kunnen coderen (op te vragen bij de lector).
     -   Neem vooraf de tutorial over RStudio door: [RStudio Tutorial](https://www.datacamp.com/tutorial/r-studio-tutorial). Dit zal je in de uitvoering veel tijd besparen.
     -   Zie voor de trainingen die je moet doen om R aan te leren **6.1 Data engineering en data analyses** van de Onboarding handleiding voor het lectoraat.
--   **Broncode** leggen we vast en delen we via [Git](https://github.com/) (Github). Broncode is -- als het wordt ontwikkeld binnen je aanstelling voor het lectoraat -- eigendom van De HHs en daarbinnen het lectoraat.
-    -   Git is een manier om de code voor de analyses van een project te scheiden van de data en de output. Neem voor je begint de volgende tutorial door: [GitHub and Git Tutorial for Beginners](https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners)**.**
-    -   Het lectoraat heeft een Github-omgeving waarop alle repositories staan: <https://github.com/LTA-HHs>. Alle repositories beginnen met lta-hhs-.
-    -   Check na grote wijzigingen je wijzigingen in met een kort commentaar, zodat jijzelf of je collega's na verloop van tijd weten wat de wijziging was. Het kan zijn dat dit meerdere keren per dag gewenst is. Gebruik als vuistregel dat wat je zou moeten kunnen terugdraaien een logisch geheel is.
+-   **Geografische data** analyseren en visualiseren we met [QGis](https://qgis.org/en/site/). Het is mogelijk in R, maar de mogelijkheden daarin zijn beperkt.
+    -   QGis is een pakket met heel veel mogelijkheden. Overleg voordat je start met de lector wat je precies ermee gaat doen en wat nuttig is om aan te leren.
+    -   Voor het maken van geografische analyses is een extra handleiding in de maak.
+
+## Rapportages
+
 -   De **opmaak** van formele documenten, zoals handleidingen, artikelen, rapporten, automatiseren we zoveel mogelijk buiten MS Office om.
     -   We maken gebruik van R, [Quarto](https://quarto.org/)/[Markdown](https://www.markdownguide.org/) of [Latex](https://www.latex-project.org/). Al deze pakketten zijn geprogrammeerd op R of communiceren daarmee.
     -   Een goede Latex editor is [Texstudio](https://www.texstudio.org/).
     -   Als je toe bent aan je eerste rapport, leer dan eerst Quarto aan met de tutorial: [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html).
--   **Geografische data** analyseren en visualiseren we met [QGis](https://qgis.org/en/site/). Het is mogelijk in R, maar de mogelijkheden daarin zijn beperkt.
-    -   QGis is een pakket met heel veel mogelijkheden. Overleg voordat je start met de lector wat je precies ermee gaat doen en wat nuttig is om aan te leren.
-    -   Voor het maken van geografische analyses is een extra handleiding in de maak.
 
 \newpage
 
@@ -244,7 +262,7 @@ Voor de datapreparatie is een git project aangemaakt: [lta-hhs-analyseset](https
 
 ## Voorbereidingen
 
-Plaats het geleverde bestand in de folder 'AS_Inschrijvingen/01. Ruwe data' in een map die de datum van het bestand weergeeft: YYYYMMDD. Een levering van 5 juli 2023 wordt 'AS_Inschrijvingen/01. Ruwe data/20230705'. Voeg bij een tweede levering op dezelfde dag een volgnummer toe "-2".
+Plaats het geleverde bestand in de folder 'AS_Inschrijvingen/01. Ruwe data' in een map die de datum van het bestand weergeeft: YYYYMMDD. Een levering van 5 juli 2023 wordt 'AS_Inschrijvingen/01. Ruwe data/20230705'. Voeg bij een tweede levering op dezelfde dag een volgnummer toe '-2'.
 
 ## Controleren
 
@@ -279,7 +297,17 @@ Plaats het geleverde bestand in de folder 'AS_Inschrijvingen/01. Ruwe data' in e
 
 1.  **Lees de gemanipuleerde data in**.
 2.  **Lees het documentatiebestand in.** Dit is het documentatiebestand van het lectoraat met eigen veldnamen en labels.
-3.  **Maak de uitgebreide documentatie**. Dit wordt uitgevoerd door het `dataMaid` package. De uikomsten worden automatisch opgeslagen in de folder 'Documentatie/Documentatie_LTA_uitgebreid'; het rapport opent zich in je browser. Zie [Figuur 2](#dataMaid).
+3.  **Maak de uitgebreide documentatie**. Dit wordt uitgevoerd door het `dataMaid` package. De uitkomsten worden automatisch opgeslagen in de folder 'Documentatie/Documentatie_LTA_uitgebreid'; het rapport opent zich in je browser. Zie [Figuur 3](#dataMaid).
 4.  **Controleer de uitkomsten.**
 
 ![Voorbeeld output van het kwaliteitsrapport met dataMaid](02_Images/Voorbeeld_kwaliteitsrapport_LTA.png){#dataMaid}
+
+\newpage
+
+# Versiegeschiedenis {.unnumbered}
+
+-   09-07-2023: versie 0.9.0 - eerste conceptversie
+
+# Repository {.unnumbered}
+
+De code voor dit document kan bewerkt worden via [GitHub](https://github.com/LTA-HHs/lta-hhs-analyseset-manual). Leden van de kenniskring van het lectoraat kunnen op verzoek toegang krijgen en meewerken aan de inhoud.
