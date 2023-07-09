@@ -1,0 +1,142 @@
+---
+versie: 0.9.0
+
+subject: Opleidingsonderzoek
+title: Instroomonderzoek B Communicatie
+subtitle: Onderzoeksvoorstel
+documenttype: Vraagstelling en onderzoeksaanpak, T.C. Bakker, v. {{< meta versie >}}
+author: Lectoraat Learning Technology & Analytics, De HHs
+keywords: [De HHs, De Staat van De Haagse, Verwerking]
+lang: nl
+date: last-modified
+date-format: "DD-MM-YYYY"
+
+format: 
+  pdf: 
+    output-file: LTA-HHs-Opleidingsonderzoek_0.9.0.pdf
+    output-ext:  "pdf"
+template: 00_Templates/eisvogel-lta.latex
+number-sections: true
+number-depth: 3
+listings: true
+latex-output-dir: 05_Output
+
+titlepage: true,
+titlepage-rule-color: 'FFFFFF'
+titlepage-text-color: '223343'
+titlepage-title-color: '223343'
+titlepage-subtitle-color: '9EA700'
+titlepage-footer-color: 'FFFFFF'
+titlepage-background: "01_Backgrounds/LTA-wood-annual-rings-compressed.pdf"
+
+header-title-color: '9EA700'
+header-date-color: '777777'
+footer-author-color: '777777'
+footer-pagenumber-color: '777777'
+
+toc: true
+toc-depth: 3
+toc-own-page: true
+colorlinks: true
+table-use-row-colors: false
+footnotes-pretty: true
+link-citations: true
+bibliography: 03_Bibliography/biblio.bib
+csl: 04_Styles/apa.csl
+editor: visual
+
+filters:
+  - _extensions/color-text/color-text.lua
+---
+
+# Inleiding
+
+Dit document beschrijft een onderzoek naar xxx voor de opleiding xxx door het lectoraat Learning Technology & Analytics. Het onderzoek maakt deel uit van het onderzoeksprogramma 'De Staat van De Haagse'.
+
+Op datum xxx heeft xxx gesproken met xxx van het lectoraat Learning Technology & Analytics. \[korte samenvatting bespreking\]
+
+Den Haag, datum
+
+## Contact {.unnumbered}
+
+Neem voor vragen contact op met Theo Bakker, 06-25637172, [t.c.bakker\@hhs.nl](mailto:t.c.bakker@hhs.nl).
+
+\newpage
+
+# Ons begrip van uw vraag
+
+## De huidige situatie
+
+-   Sinds een aantal studiejaren daalt de nieuwe instroom van de opleiding Communicatie van de Faculteit Management & Organisatie van De HHs: van 125 in 2016 tot 66 in 2022 (-47%).
+-   Inspanningen om de conversie van nieuwe studenten te verhogen hebben niet geleid tot een hogere instroom.
+
+## Complicatie
+
+-   Het is onvoldoende duidelijk waarom de instroom daalt.
+-   De informatie die tot nu toe beschikbaar is vanuit de managementrapportages gecombineerd met Osiris bieden nog onvoldoende houvast om deze ontwikkeling te begrijpen en daarop te handelen.
+
+## Oplossing / onderzoek
+
+Het lectoraat Learning Technology & Analytics stelt voor onderzoek te doen naar een wat bredere set aan data dan toe nu toe is gedaan, onder meer:
+
+-   Eerdere managementrapportages: Kwaliteit in Beeld en Portfolio-analyse.
+-   Achtergrondkenmerken van studenten en hun aanmelding[^1].
+-   Ontwikkelingen bij toeleverende scholen.
+-   Een benchmark met andere opleidingen met dezelfde CROHO-code in Nederland.
+-   Mogelijke concurrentie door equivalente opleidingen binnen De HHs.
+-   Ontwikkeling bezoek/deelname aan voorlichtings- en marketingactiviteiten. Ontwikkeling reputatie in de Keuzegids.
+-   Conversie van aanmelding naar inschrijving.
+
+[^1]: Denk aan: herkomst, hoogste vooropleiding en eerdere prestaties, leeftijd, geslacht, spreidingsgebied, datum van aanmelding, eerdere activiteit in het hoger onderwijs.
+
+## Aanpak
+
+-   In een werksessie worden de situatie, vraag en beschikbare data nader besproken vanuit meerdere disciplines: Institutional Research (OKC), Team Analytics (OKC), Marketing & Communicatie (OKC), B Communicatie (M&O), BAK-team (M&O); deze sessie wordt voorbereid door Theo Bakker en Monique Deleu.
+-   In deze sessie wordt vastgesteld, welke data al onderzocht kunnen worden en op welke manier, en welke nog aanvullend verzameld moeten worden.
+-   In de sessie wordt de taakverdeling en verder planning eveneens vastgesteld.
+
+De planning / het verloop hangt samen met:
+
+-   beschikbaarheid van collega's;
+-   formele beschikbaarheid van data voor de lector om te kunnen onderzoeken.
+
+\newpage
+
+# Een aantal inzichten tot nu toe
+
+## Ontwikkeling B Communicatie landelijk - VH
+
+![Vereniging hogescholen Feiten en cijfers (d.d. 08-02-2023)](02_Images/COM-VH.png)
+
+## Kwaliteit in Beeld 2021 - OKC, IR&A
+
+![](02_Images/COM-KiB.png)
+
+*NB De meest recente versie van KIB was niet voorhanden.*
+
+## Scores Keuzegids -- OKC, IR&A
+
+![](02_Images/COM-Keuzegids.png)
+
+-   In de Keuzegids 2022 steeg de score van Communicatie en werd daarmee in dat jaar een van de zeven Haagse opleidingen die het label 'goed' kregen met 4 sterren.
+-   Afgelopen jaar is de score weer gedaald, maar nog steeds veel hoger dan in de periode voor 2022
+
+## Marktaandeel -- OKC, IR&A
+
+![](02_Images/COM-Marktaandeel-1.png)
+
+![](02_Images/COM-Marktaandeel-2.png)
+
+-   Marktaandeel R6 voor Inschrijvingen, nieuwe aanmeldingen, eerstejaars, ongewogen is voor studiejaar 2021 en 2022 vrijwel gelijk.
+-   Vergelijking van de inschrijvingsverzoeken van week 6 voor studiejaar 2023 en hetzelfde moment vorig jaar leert dat het marktaandeel nu iets hoger ligt.
+-   Opvallend is het verschil in marktaandeel van de inschrijvingsverzoeken in februari en de daadwerkelijke inschrijvingen (bovenste afbeeldingen).
+
+\newpage
+
+# Versiegeschiedenis {.unnumbered}
+
+-   09-07-2023: versie 0.9.0 - eerste conceptversie
+
+# Repository {.unnumbered}
+
+De code voor dit document kan bewerkt worden via [GitHub](https://github.com/tcbakker/lta-hhs-onderzoeksproject-opleiding-template). Leden van de kenniskring van het lectoraat kunnen op verzoek toegang krijgen en meewerken aan de inhoud.
